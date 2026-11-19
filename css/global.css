@@ -1,0 +1,194 @@
+body {
+	background-color: #1e2a2f;
+}
+
+.patura-one-regula {
+  font-family: "Patua One", serif;
+  font-style: normal;
+}
+p {
+  font-family: "Libre Baskerville", serif;
+  font-style: normal;
+}
+/*
+#fff;
+#1e2a2f;
+#e07a3f;
+#2e3335
+*/
+
+h1 {
+	font-size: 4vb;
+}
+
+h2 {
+	font-size: 4vb;
+	color: #e07a3f;
+	margin-bottom: 15px;
+}
+
+h4 {
+	font-size: 2.7vb;
+}
+
+p {
+	font-size: 2vb;
+	color: #bbb;
+	margin-bottom: 20px;
+	line-height: 1.6;
+}
+
+.decoracion {
+	position: absolute;
+	inset: 0;
+	pointer-events: none;
+	z-index: 0;
+}
+
+.readmore {
+	display: inline-block;
+	padding: 10px 24px;
+	border: 1px solid #fff;
+	border-radius: 20px;
+	color: #fff;
+	text-decoration: none;
+	font-size: 13px;
+	letter-spacing: 1px;
+	background: transparent;
+	cursor: pointer;
+	animation: aparecer linear both;
+	animation-timeline: view();
+	animation-range: entry 90% cover 50%;
+}
+
+.readmore:hover {
+	transition: 0.4s;
+	transform: scale(120%);
+	background-color: #e07a3f;
+	color: #2e3335;
+	border:none;
+}
+
+/* ----------------------------------------------------------------- */
+
+@keyframes aparecer {
+	0%{
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+	}
+}
+
+@keyframes agrandar {
+	0%{
+		transform: scale(0);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
+
+@keyframes subir {
+	0%{
+		transform:translateY(20px);
+	}
+	100%{
+		transform:translateY(0px);
+	}
+}
+
+@keyframes aparecersubir {
+	0%{
+		opacity: 0;
+		transform:translateY(60px);
+	}
+	100%{
+		transform:translateY(0px);
+		opacity: 1;
+	}
+}
+
+
+@keyframes subir2 {
+	0%{
+		transform:translateY(50px);
+	}
+	100%{
+		transform:translateY(0px);
+	}
+}
+
+@keyframes apareceragrandar {
+	0%{
+		transform: scale(0.5);
+		opacity: 0;
+	}
+	100%{
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+
+@keyframes rotar50 {
+	0%{
+		transform:rotateZ(-60deg);
+	}
+	100%{
+		transform:rotateZ(0deg);
+	}
+}
+
+@keyframes aparecerrotar50 {
+	0%{
+		opacity: 0;
+		transform:rotateZ(-60deg);
+	}
+	100%{
+		opacity: 1;
+		transform:rotateZ(0deg);
+	}
+}
+
+@keyframes aparecerderecha {
+	0%{
+		opacity: 0;
+		transform:translateX(30%);
+	}
+	100%{
+		opacity: 1;
+		transform:translateX(0%);
+	}
+}
+
+@keyframes derecha {
+	0%{
+		transform:translateX(50%);
+	}
+	100%{
+		transform:translateX(0%);
+	}
+}
+
+
+@keyframes aparecerizquierda {
+	0%{
+		opacity: 0;
+		transform:translateX(-50%);
+	}
+	100%{
+		opacity: 1;
+		transform:translateX(0%);
+	}
+}
+
+@keyframes izquierda {
+	0%{
+		transform:translateX(-50%);
+	}
+	100%{
+		transform:translateX(0%);
+	}
+}
+
+

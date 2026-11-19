@@ -1,0 +1,75 @@
+header {
+	background-color: #1e2a2f;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px 30px;
+	text-decoration: none;
+	color: #bbb;
+}
+
+header .logo {
+	font-size: 5vb;
+	color: inherit;
+}
+header nav a {
+	text-decoration: none;
+	margin-left: 25px;
+	font-size: 2vb;
+	color: inherit;
+}
+
+/* ----------------------------------------------------------------- */
+
+.hedy {
+	background-image: url("/assets/fondo2.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 500px;
+	height: 60vb;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.hedy-text {
+	color: #bbb;
+	animation: aparecer 2s ease-out forwards;
+}
+
+
+
+.hedy-text h1 {
+	letter-spacing: 1vb;
+	font-size: 6.5vb;
+	padding: 0%;
+	margin: 0%;
+	animation: agrandar 2s ease-out forwards;
+}
+
+.hedy-text p {
+	font-size: 2vb;
+	padding: 1%;
+	margin: 1%;
+	animation: agrandar 1s ease-out forwards;
+	animation: subir 1s ease-out forwards;
+}
+
+.img-fondo {
+	background-image: url(assets\circulo.png);
+}
+
+.hedy .readmore{
+	margin-top: 1vb;
+	animation: aparecer 1s ease-in forwards;
+	animation: subir 1s ease-in forwards;
+}
+.hedy .readmore :hover {
+	transition: 1s;
+	transform: scale(120%);
+	background-color: #494949;
+	color: #2e3335;
+}
+/* ----------------------------------------------------------------- */

@@ -1,0 +1,58 @@
+.Tcard {
+	color: #bbb;
+	flex: 1;
+	border: 2px solid #e07a3f;
+	border-radius: 6px;
+	padding: 25px 15px;
+	text-align: center;
+	margin: 0%;
+}
+
+.Bcard {
+	flex: 1;
+	border: 1px solid #2e3335;
+	background-color: #e6e6e6;
+	color: #1c1f20;
+	border-radius: 20px;
+	padding: 70px 15px;
+}
+
+.Bcard p {
+	color: #323536;
+}
+
+.circulo {
+	border-radius: 50%;
+	aspect-ratio: 1;
+	z-index: 1;
+}
+
+.c0 {
+	width: 80vb;
+	object-fit: cover;
+}
+
+.c1 {
+	width: 50vb;
+	object-fit: cover;
+}
+
+.c2 {
+	width: 40vb;
+	object-fit: cover;
+}
+
+.c3 {
+	width: 30vb;
+	object-fit: cover;
+}
+
+.c4 {
+	width: 20vb;
+	object-fit: cover;
+}
+
+.c5 {
+	width: 10vb;
+	object-fit: cover;
+}

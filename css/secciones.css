@@ -1,0 +1,326 @@
+/* ----------------------------------------------------------------- */
+
+.cuadros {
+	height: 20vb;
+	display: flex;
+	gap: 15px;
+	padding: 30px;
+	animation: subir linear both;
+	animation: aparecer linear both;
+	animation-timeline: view();
+	animation-range: entry 100% cover 50%;
+}
+
+.actividades {
+	animation: subir2 linear both;
+	animation: apareceragrandar linear both ;
+	animation-timeline: view();
+	animation-range: entry 100% cover 50%;
+	height: 30vb;
+	transition: 0.2s;
+}
+
+.cuadros :hover {
+	background-color: #e07a3f;
+	transform: translateY(-1vb);
+}
+
+.cuadros .Tcard :hover {
+	background-color: #e07a3f;
+	transform: translateY(-1vb);
+}
+
+.actividades p {
+	color: #888;
+}
+
+.actividades h4 {
+	margin: 0%;
+}
+
+.cuadros .icono {
+	width: 17vb;
+	height: 17vb;
+	margin: 0 auto 0px;
+}
+
+.cuadros .icono :hover{
+	transform: scale(50px);
+}
+
+/* ----------------------------------------------------------------- */
+
+.info1 {
+	position: relative;
+	display: flex;
+	flex: auto;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	padding: 14vb 10%;
+	margin-top: 80px;
+}
+
+.info01 {
+	flex: 1;
+	width: 250px;
+	margin-left: 10%;
+	animation: aparecer linear both;
+	animation-timeline: view();
+	animation-range: entry 100% cover 50%;
+}
+
+.info01 .circulo{
+	animation: subir2 linear both;
+	
+	animation: rotar50 linear both;
+	animation-timeline: view();
+	animation-range: entry 100% cover 50%;
+}
+
+.info1 .decoracion .c3 {
+	position: absolute;
+	left: 140vb;
+	top: 5vb;
+	border: 3vb solid #e07a3f;
+	animation: apareceragrandar linear both;
+	animation-timeline: view();
+	animation-range: entry 100% cover 50%;
+}
+
+.info1 .decoracion .c4 {
+	position: relative;
+	left: 110vb;
+	top: 45vb;
+	border: 3vb solid #e07a3f;
+	animation: apareceragrandar linear both;
+	animation-timeline: view();
+	animation-range: entry 100% cover 50%;
+}
+
+/* ----------------------------------------------------------------- */
+
+.info2 {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	padding: 40px 10%;
+	margin-top: 80px;
+}
+
+.info2 .decoracion .c1 {
+	position: absolute;
+	left: 100vb;
+	top: 10vb;
+	border: 0.7vb solid #bbb;
+	animation: apareceragrandar linear both;
+	animation-timeline: view();
+	animation-range: entry 100% cover 50%;
+}
+
+.info2 .decoracion .c2 {
+	position: relative;
+	left: 63vb;
+	top: 30vb;
+	border: 1.5vb solid #e07a3f;
+	animation: aparecerrotar50 linear both;
+	animation-timeline: view();
+	animation-range: entry 100% cover 50%;
+}
+
+.info2 .decoracion .c3 {
+	position: absolute;
+	left: 45vb;
+	top: 0vb;
+	animation: aparecerizquierda linear both;
+	animation-timeline: view();
+	animation-range: entry 100% cover 50%;
+}
+
+.info2 .decoracion .c4 {
+	position: absolute;
+	left: 135vb;
+	top: 45vb;
+	border: 4vb solid #2e3335;
+	animation: aparecer linear both;
+	animation: derecha linear both;
+	animation-timeline: view();
+	animation-range: entry 100% cover 50%;
+}
+
+.info2 .decoracion .c5 {
+	position: absolute;
+	left: 30vb;
+	top: 30vb;
+	border: 3vb solid #e07a3f;
+	animation: aparecer linear both;
+	animation-timeline: view();
+	animation-range: entry 100% cover 50%;
+}
+
+.info2 a :hover{
+	transform: scale(110%);
+}
+
+.info2 .texto {
+	padding: 75vb 0px 0px 0px;
+	text-align: center;
+	animation: subir2 linear both;
+	animation: aparecer linear both;
+	animation-timeline: view();
+	animation-range: entry 100% cover 70%;
+}
+
+/* ----------------------------------------------------------------- */
+
+.info3 {
+	position: relative;
+	display: flex;
+	flex: auto;
+	align-items: center;
+
+	gap: 20px;
+	padding: 80px 10%;
+	margin-top: 100px;
+}
+
+.info3 h2 {
+	position: absolute;
+	top: 0;
+	color: #bbb;
+	animation: aparecerderecha linear both;
+	animation-timeline: view();
+	animation-range: entry 80% cover 50%;
+}
+
+.info03 {
+	margin-top: 3vb;
+	flex: 1;
+}
+
+.info3 .Bcard {
+	flex: 1;
+	width: 40vb;
+	aspect-ratio: 1/1.1;
+	margin: 0px 0px 0px 20%;
+	animation: aparecerizquierda linear both;
+	animation-timeline: view();
+	animation-range: entry 50% cover 50%;
+}
+.info3 .Bcard .readmore {
+	margin-top: 20px;
+	color: #e07a3f;
+	border-color: #e07a3f;
+
+}
+
+.info3 .Bcard .readmore:hover {
+	transition: 0.4s;
+	transform: scale(120%);
+	background-color: #e07a3f;
+	color: #2e3335;
+	border:none;
+}
+.info03 .c1 {
+	margin-left: 30px;
+	animation: aparecerderecha linear both;
+	animation-timeline: view();
+	animation-range: entry 50% cover 50%;
+}
+
+/* ----------------------------------------------------------------- */
+
+.info4 h2 {
+	margin-top: 14vb;
+	text-align: center;
+	color: #bbb;
+	animation: apareceragrandar linear both;
+	animation-timeline: view();
+	animation-range: entry 30% cover 50%;
+}
+
+.info4-contenedor {
+	display: flex;
+	flex: auto;
+	padding: 16vb;
+	gap: 5vb;
+}
+
+.info04 {
+	flex: 1;
+}
+
+.info4 .Bcard {
+	height: 70vb;
+	padding: 30px 15px;
+	animation: aparecersubir linear both;
+	animation-timeline: view();
+	animation-range: entry 50% cover 50%;
+}
+
+.info4 .Bcard .readmore {
+	position: absolute;
+	bottom: 10%;
+	color: #2e3335;
+	border-color: #2e3335;
+}
+/* ----------------------------------------------------------------- */
+
+.info5 {
+	margin-top: 7vb;
+	position: relative;
+}
+
+.info5 .c0 {
+	position: absolute;
+	top: 6vb;
+	left: 15vb;
+	animation: aparecerizquierda linear both;
+	animation-timeline: view();
+	animation-range: entry 50% cover 50%;
+	
+}
+
+.info5 .c4 {
+	border: 4vb solid #2e3335;
+	position: absolute;
+	top: 0vb;
+	left: 140vb;animation: apareceragrandar linear both;
+	animation-timeline: view();
+	animation-range: entry 50% cover 50%;
+}
+.info5 .c5 {
+	background-color: #e07a3f;
+	border: 2vb solid #e07a3f;
+	position: absolute;
+	top: 75vb;
+	left: 30vb;
+	animation: aparecer linear both;
+	animation-timeline: view();
+	animation-range: entry 50% cover 50%;
+}
+
+.info5 .Bcard {
+	position: absolute;
+	top: 55vb;
+	left: 95vb;
+	z-index: 1;
+}
+.info5 .Bcard h2 {
+	color: #2e3335;
+}
+.info5 .Bcard .readmore {
+	background-color: #e07a3f;
+}
+
+.info5 .Bcard .readmore:hover {
+	transition: 0.4s;
+	transform: scale(120%);
+	background-color: #e07a3f;
+	color: #2e3335;
+	border:none;
+}
+
+/* ----------------------------------------------------------------- */
