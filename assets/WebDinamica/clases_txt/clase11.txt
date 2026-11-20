@@ -1,6 +1,0 @@
-encapsulamiento
-ocultar, permitir acceso y proteger datos
-
-
-public, private y protect
-atributos siempre privados, metodos publicos
